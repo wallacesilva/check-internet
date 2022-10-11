@@ -36,7 +36,7 @@ class TaskBarFrame(wx.Frame):
 
     def OnTaskBarLeftDClick(self, evt):
         if IS_DEBUG:
-            print 'Double click left'
+            print('Double click left')
 
         try:
             self.icontimer.Stop()
@@ -50,7 +50,7 @@ class TaskBarFrame(wx.Frame):
 
     def OnTaskBarRightClick(self, evt):
         if IS_DEBUG:
-            print 'You click with right click'
+            print('You click with right click')
         self.Close(True)
         sys.exit()
 
@@ -79,13 +79,13 @@ class TaskBarFrame(wx.Frame):
             self.tbicon.SetIcon(icon, TRAY_TOOLTIP + 'ON')
 
             if IS_DEBUG:
-                print 'Connected'
+                print('Connected')
         else:
             icon = wx.Icon(TRAY_ICON_OFF, wx.BITMAP_TYPE_PNG)
             self.tbicon.SetIcon(icon, TRAY_TOOLTIP + 'OFF')
             
             if IS_DEBUG:
-                print 'Not Connected'
+                print('Not Connected')
 
 # load and start application frame
 app = wx.App(False)
