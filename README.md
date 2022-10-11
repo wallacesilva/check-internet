@@ -51,6 +51,10 @@ Future:
 
 - Released first version to beta testing.
 
+## LICENSE
+
+MIT LICENSE
+
 ## Support, Bugs, And Feature Requests
 
 Create issues here in GitHub (https://github.com/wallacesilva/check-internet/issues).
