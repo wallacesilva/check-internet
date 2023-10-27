@@ -10,7 +10,7 @@ Check internet connection similar to Microsoft Windows. Adding and changing icon
 ## Requirements
 
 * Python
-* Python Module: wx (wxPython)
+* Python Module: wx (wxPython) `pip install wxPython`
 * Python Module: urllib2
 * Python Module: sys
 
